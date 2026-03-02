@@ -1,0 +1,36 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 30px;
+  color: #000;
+}
+
+h2 {
+  margin-bottom: 14px;
+}
+
+table.products {
+  border-collapse: collapse;
+  width: 520px;
+}
+
+table.products th {
+  background: #8fd0f5;
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+table.products td {
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+table.products tbody tr:nth-child(even) td {
+  background: #cfcfcf;
+}
+
+.error {
+  color: darkred;
+  font-weight: bold;
+}
